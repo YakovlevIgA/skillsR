@@ -1,0 +1,8 @@
+graph MST {
+    node [shape=circle, style=filled, fillcolor=lightgray];
+    2 -- 3 [label=4, color=green];
+    0 -- 3 [label=5, color=green];
+    0 -- 2 [label=6, color=gray];
+    0 -- 1 [label=10, color=green];
+    1 -- 3 [label=15, color=gray];
+}
